@@ -6,6 +6,7 @@
     <title>Burton Education</title>
 </head>
 <body>
+<div id="wrapper">
 <form action="https://www.savatarian.com/html5/form.php" method="post"></form>
 <ul>
     <li>
@@ -15,16 +16,47 @@
         <span class="verplicht">* verplicht veld</span>
     </li>
     <li>
-        <label for="voornaam">Voornaam :</label>
-        <input type="text" name="voornaam">
+        <div class="form-group">
+            <label for="voornaam">Voornaam :</label>
+            <input type="text" name="voornaam">
+        </div>
     </li>
     <li>
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" name="achternaam">
+        <label for="tussenvoegsel">tussenvoegsel</label>
+        <input type="text" name="tussenvoegsel">
+    </li>
+    <li>
+        <div class="form-group">
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" name="achternaam">
+        </div>
+    </li>
+    <li>
+        <input type="radio" name="geslacht" value="Man" checked> Man
+        <input type="radio" name="geslacht" value="Vrouw"> Vrouw
+    </li>
+    <li>
+        <input type="checkbox">nx
+    </li>
+    <li>
+        Geboorte Datum:
+        <input type="date" name="geboorte">
+    </li>
+    <li>
+        opmerking
+        <input type="text" name="opmerking">
     </li>
     <li>
         <input type="submit" name="knop">
     </li>
 </ul>
+</div> <!-- wrapper -->
+<div id="2">
+    <form>
+        <input type="checkbox" name="eten1" value="Sperciebonen"> Sperciebonen<br>
+        <input type="checkbox" name="eten2" value="Aardappelen"> Aardappelen<br>
+        <input type="checkbox" name="eten3" value="Hamburger"> Hamburger
+    </form>
+</div>
 </body>
 </html>
