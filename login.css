@@ -1,21 +1,36 @@
 ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
 }
 li{
     padding: 10px;
 }
-input{
+li input{
     position: absolute;
     left: 150px;
 }
-form input{
-    margin-right: 30px;
-}
 div#wrapper{
-    width: 60%;
+    width: 50%;
+    float: left;
 }
-div#2{
-    width: 35%;
+form{
+    padding-top: inherit;
 }
-g
+form input{
+    left: 0;
+    position: relative;
+}
+div#twee{
+    margin-top: 10px;
+    padding-right: 495px
+}
+H3{
+    padding: 43px;
+}
+div#knop{
+    clear: left;
+   float: right;
+    padding-top: 65px;
+    padding-right: 490px
+}
+
